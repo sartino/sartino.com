@@ -1,0 +1,149 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: OpenSans;
+}
+
+@font-face { font-family: OpenSans; src: url('../fonts/OpenSans-Regular.ttf'); }
+@font-face { font-family: OpenSansBold; src: url('../fonts/OpenSans-Bold.ttf'); }
+
+body {
+    font-family: "OpenSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.man-bench {
+    position: relative;
+    height: 800px;
+    background-image: url('../img/manBench.jpg');
+    background-size: auto 1000px;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo {
+    height: 35px;
+    width: 100%;
+    background-image: url('../img/wherearewelogo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 44%;
+    /*z-index: 1;*/
+}
+
+.bird {
+    height: 298px;
+    width: 100%;
+    background-image: url('../img/back-bird.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -520px;
+    /*z-index: 1;*/
+    /*background-color: pink;*/
+}
+
+.subway {
+    position: relative;
+    height: 800px;
+    background-image: url('../img/subway2.jpg');
+    background-size: auto 1000px;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo2 {
+    height: 50px;
+    width: 100%;
+    background-image: url('../img/wherearewegoing.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 120%;
+    z-index: 1;
+}
+
+.white {
+    background-color: white;
+    height: 80px;
+}
+
+.container-fluid {
+    position: relative;
+    width: 100%;
+}
+
+.container-fluid h1 {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: OpenSansBold;
+    font-size: 6em;
+    color: white;
+}
+
+.lead {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.lower-three {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.pad-bottom {
+    padding-bottom: 13%;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.hr {
+    border-width: 3px;
+}
+
+.map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.map iframe,
+.map object,
+.map embed {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+}
+
+.jumbotron {
+    background-color: #A5D5E6;
+}
+
+/*.blue {
+    background-color: #90C3D4;
+}*/
+
+/*@media screen and (max-width: 500px) {
+    .container-fluid h1 {
+        font-size: 2em;
+    }
+}*/
