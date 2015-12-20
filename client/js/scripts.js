@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 
     $('.bird').css({
-      'transform': 'translate(0px, ' + wScroll / 5 + '%)'
+      'transform': 'translate(50px, ' + wScroll / 10 + '%)'
     });
 
     $('.man-bench').css({
@@ -23,7 +23,15 @@ $(document).ready(function () {
     $('.logo2').css({
       'transform': 'translate(0px, ' + wScroll / 15 + '%)'
     });
+ 
+    $('.computer').css({
+      'transform': 'translate(0px, -' + wScroll / 15 + '%)'
+    });
     
+    $('.logo3').css({
+      'transform': 'translate(0px, -' + wScroll / 10 + '%)'
+    });
+       
     $('.bottom').css({
       'transform': 'translate(0px, -' + wScroll / 7.5 + '%)'
     });

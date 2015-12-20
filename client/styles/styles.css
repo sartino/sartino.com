@@ -37,12 +37,12 @@ body {
 .bird {
     height: 298px;
     width: 100%;
-    background-image: url('../img/back-bird.png');
+    background-image: url('../img/macaw.png');
     background-repeat: no-repeat;
     background-position: left;
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 52%;
     margin-left: -520px;
     /*z-index: 1;*/
     /*background-color: pink;*/
@@ -52,7 +52,7 @@ body {
     position: relative;
     height: 800px;
     background-image: url('../img/subway2.jpg');
-    background-size: auto 1000px;
+    background-size: auto 1100px;
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -67,6 +67,28 @@ body {
     background-position: center;
     position: absolute;
     top: 120%;
+    z-index: 1;
+}
+
+.computer {
+    position: relative;
+    height: 800px;
+    background-image: url('../img/computerSand.jpg');
+    background-size: auto auto;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo3 {
+    height: 50px;
+    width: 100%;
+    background-image: url('../img/wherehavewebeen.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 200%;
     z-index: 1;
 }
 
@@ -118,22 +140,6 @@ body {
     border-width: 3px;
 }
 
-.map {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
-
-.map iframe,
-.map object,
-.map embed {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 80%;
-    height: 70%;
-}
-
 .jumbotron {
     background-color: #A5D5E6;
 }
@@ -146,4 +152,15 @@ body {
     .container-fluid h1 {
         font-size: 2em;
     }
+}*/
+
+/*.computer {
+    position: relative;
+    height: 800px;
+    background-image: url('../img/computerSand.jpg');
+    background-size: auto 1000px;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }*/
