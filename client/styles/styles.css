@@ -7,9 +7,11 @@ body {
 
 @font-face { font-family: OpenSans; src: url('../fonts/OpenSans-Regular.ttf'); }
 @font-face { font-family: OpenSansBold; src: url('../fonts/OpenSans-Bold.ttf'); }
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300italic,300);*/
 
 body {
     font-family: "OpenSans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
 }
 
 .man-bench {
@@ -60,7 +62,7 @@ body {
 }
 
 .logo2 {
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-image: url('../img/wherearewegoing.svg');
     background-repeat: no-repeat;
@@ -82,7 +84,7 @@ body {
 }
 
 .logo3 {
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-image: url('../img/wherehavewebeen.svg');
     background-repeat: no-repeat;

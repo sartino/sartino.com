@@ -23,17 +23,21 @@ $(document).ready(function () {
     $('.logo2').css({
       'transform': 'translate(0px, ' + wScroll / 15 + '%)'
     });
- 
+
     $('.computer').css({
       'transform': 'translate(0px, -' + wScroll / 15 + '%)'
     });
-    
+
     $('.logo3').css({
-      'transform': 'translate(0px, -' + wScroll / 10 + '%)'
+      'transform': 'translate(0px, -' + wScroll / 4 + '%)'
     });
-       
+
     $('.bottom').css({
       'transform': 'translate(0px, -' + wScroll / 7.5 + '%)'
+    });
+
+    $('.address').css({
+      'transform': 'translate(0px, -' + wScroll / 3 + '%)'
     });
 
   });
