@@ -29,15 +29,15 @@ $(document).ready(function () {
     });
 
     $('.logo3').css({
-      'transform': 'translate(0px, -' + wScroll / 4 + '%)'
+      'transform': 'translate(0px, -' + wScroll / 2 + '%)'
     });
 
     $('.bottom').css({
-      'transform': 'translate(0px, -' + wScroll / 7.5 + '%)'
+      'transform': 'translate(0px, -' + wScroll / 15 + '%)'
     });
 
     $('.address').css({
-      'transform': 'translate(0px, -' + wScroll / 3 + '%)'
+      'transform': 'translate(0px, -' + wScroll / 5 + '%)'
     });
 
   });
