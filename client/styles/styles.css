@@ -18,7 +18,7 @@ body {
     position: relative;
     height: 800px;
     background-image: url('../img/manBench.jpg');
-    background-size: auto 1000px;
+    background-size: auto auto;
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ body {
     position: relative;
     height: 800px;
     background-image: url('../img/subway2.jpg');
-    background-size: auto 1100px;
+    background-size: auto auto;
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -149,6 +149,18 @@ body {
 .services {
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+    height: 20px;
+    }
+    .logo2 {
+    height: 20px;
+    }
+    .logo3 {
+    height: 20px;
+    }
 }
 
 /*.blue {
