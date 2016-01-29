@@ -1,6 +1,7 @@
-var myApp = angular.module('myApp', ['ngRoute', 'ngResource']);
+var myBlogApp = angular.module('myBlogApp', ['ngRoute', 'ngResource', 'myBlogApp.factories', 'myBlogApp.controllers']);
+// var myApp = angular.module('myApp', ['ngRoute', 'ngResource']);
 
-myApp.config(['$routeProvider', function($routeProvider) {
+myBlogApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 	.when('/', {
 		templateUrl : 'views/main.html',
@@ -10,40 +11,15 @@ myApp.config(['$routeProvider', function($routeProvider) {
 		templateUrl : 'views/main.html',
 		controller  : 'homeController'
 	})
-	.when('/connie', {
-		templateUrl : 'views/connie.html',
-		controller  : 'newpostController'
+	.when('/projects', {
+		templateUrl : 'views/projects.html',
+		controller  : 'homeController'
 	})
-    .when('/anne', {
-		templateUrl : 'views/anne.html',
-		controller  : 'newpostController'
+    .when('/blog', {
+		templateUrl : 'views/blog.html',
+		controller  : 'blogController'
 	})
-	.when('/muriel', {
-		templateUrl : 'views/muriel.html',
-		controller  : 'blogdetailController'
-	})
-	.when('/mbct', {
-		templateUrl : 'views/mbct.html',
-		controller  : 'newpostController'
-	})
-	.when('/fees', {
-		templateUrl : 'views/fees.html',
-		controller  : 'blogdetailController'
-	})
-	.when('/imago', {
-		templateUrl : 'views/imago.html',
-		controller  : 'newpostController'
-	})
-	.when('/appt', {
-		templateUrl : 'views/appt.html',
-		controller  : 'newpostController'
-	})
-	.when('/forms', {
-		templateUrl : 'views/forms.html',
-		controller  : 'newpostController'
-	})
-	.when('/directions', {
-		templateUrl : 'views/directions.html',
-		controller  : 'newpostController'
-	});
+    .otherwise({
+        redirectTo: '/'
+    });
 }]);

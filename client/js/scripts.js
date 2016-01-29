@@ -28,9 +28,9 @@ $(document).ready(function () {
       'transform': 'translate(0px, -' + wScroll / 15 + '%)'
     });
 
-    // $('.logo3').css({
-    //   'transform': 'translate(0px, -' + wScroll / 30 + '%)'
-    // });
+    $('.logo3').css({
+      'transform': 'translate(0px, -' + wScroll / 30 + '%)'
+    });
 
     $('.bottom').css({
       'transform': 'translate(0px, -' + wScroll / 38 + '%)'
