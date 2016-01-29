@@ -28,18 +28,19 @@ $(document).ready(function () {
       'transform': 'translate(0px, -' + wScroll / 15 + '%)'
     });
 
-    $('.logo3').css({
-      'transform': 'translate(0px, -' + wScroll / 2 + '%)'
-    });
+    // $('.logo3').css({
+    //   'transform': 'translate(0px, -' + wScroll / 30 + '%)'
+    // });
 
     $('.bottom').css({
-      'transform': 'translate(0px, -' + wScroll / 15 + '%)'
+      'transform': 'translate(0px, -' + wScroll / 30 + '%)'
     });
 
     $('.address').css({
-      'transform': 'translate(0px, -' + wScroll / 5 + '%)'
+      'transform': 'translate(0px, -' + wScroll / 3 + '%)'
     });
 
   });
+  
 
 });

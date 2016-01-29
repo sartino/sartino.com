@@ -90,7 +90,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 200%;
+    top: 190%;
     z-index: 1;
 }
 
@@ -147,11 +147,12 @@ body {
 }
 
 .services {
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-@media screen and (max-width: 500px) {
+
+/*@media screen and (max-width: 500px) {
     .logo {
     height: 20px;
     }
@@ -161,7 +162,7 @@ body {
     .logo3 {
     height: 20px;
     }
-}
+}*/
 
 /*.blue {
     background-color: #90C3D4;
