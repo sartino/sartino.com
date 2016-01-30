@@ -122,6 +122,10 @@ body {
     padding-right: 8%;
 }
 
+.lead2 {
+    width: 70%;
+}
+
 .pad-bottom {
     padding-bottom: 13%;
 }
@@ -134,10 +138,6 @@ body {
     text-align: center;
 }
 
-.hr {
-    border-width: 3px;
-}
-
 .jumbotron {
     background-color: #A5D5E6;
 }
@@ -147,8 +147,40 @@ body {
     padding-bottom: 5%;
 }
 
+.services-small {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 .service-item {
     margin-bottom: 15%;
+}
+
+.hr {
+    border: 0;
+    color: #9E9E9E;
+    background-color: #9E9E9E;
+    height: 1.5px;
+    text-align: center;
+    width: 85%;
+}
+
+.hr-thick {
+    display: block;
+    height: 2.5px;
+    border: 0;
+    border-top: 2.5px solid #9E9E9E;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.hr3 {
+    border: 0;
+    color: #9E9E9E;
+    background-color: #9E9E9E;
+    height: 3px;
+    text-align: center;
+    width: 35%;
 }
 
 

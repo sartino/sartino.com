@@ -1,19 +1,18 @@
 var myBlogApp = angular.module('myBlogApp', ['ngRoute', 'ngResource', 'myBlogApp.factories', 'myBlogApp.controllers']);
-// var myApp = angular.module('myApp', ['ngRoute', 'ngResource']);
 
 myBlogApp.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 	.when('/', {
 		templateUrl : 'views/main.html',
-		controller  : 'homeController'
+		controller  : 'blogController'
 	})
 	.when('/home', {
 		templateUrl : 'views/main.html',
-		controller  : 'homeController'
+		controller  : 'blogController'
 	})
 	.when('/projects', {
 		templateUrl : 'views/projects.html',
-		controller  : 'homeController'
+		controller  : 'blogController'
 	})
     .when('/blog', {
 		templateUrl : 'views/blog.html',

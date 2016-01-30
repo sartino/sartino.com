@@ -1,15 +1,3 @@
-myBlogApp.controller('homeController', ['$scope', function ($scope) {
-
-}]);
-
-myBlogApp.controller('newpostController', ['$scope', function ($scope) {
-
-}]);
-
-myBlogApp.controller('blogdetailController', ['$scope', function ($scope) {
-
-}]);
-
 var myBlogApp = angular.module('myBlogApp.controllers', []);
 
                 // GET
