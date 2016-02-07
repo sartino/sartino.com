@@ -148,8 +148,8 @@ body {
 }
 
 .services-small {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .service-item {
@@ -160,27 +160,41 @@ body {
     border: 0;
     color: #9E9E9E;
     background-color: #9E9E9E;
-    height: 1.5px;
+    height: 1px;
     text-align: center;
-    width: 85%;
+    width: 100%;
 }
 
 .hr-thick {
     display: block;
-    height: 2.5px;
+    height: 2px;
     border: 0;
-    border-top: 2.5px solid #9E9E9E;
+    border-top: 2px solid #9E9E9E;
     margin: 1em 0;
     padding: 0; 
+}
+
+.hr1 {
+    border: 0;
+    color: #9E9E9E;
+    background-color: #9E9E9E;
+    height: 1px;
+    text-align: center;
+    width: 16em;
 }
 
 .hr3 {
     border: 0;
     color: #9E9E9E;
     background-color: #9E9E9E;
-    height: 3px;
+    height: 1.5px;
     text-align: center;
     width: 35%;
+}
+
+.btn {
+    margin-right: 1%;
+    margin-top: 1%;
 }
 
 

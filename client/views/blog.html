@@ -6,13 +6,16 @@
     <div class="row">
         <!--<button class="btn" ng-click="createPost()">Create New Post</button>-->
         <div class="posts lead" ng-repeat="post in posts">
-            <h3>{{ post.title }}</h3>
+            <hr class="hr1">
+            <h2 class="center"><strong>{{ post.title }}</strong></h2>
+            <hr class="hr1">
             <h4>by {{ post.author }}</h4>
             <h5>on {{ post.createdAt | date : short }}</h5>
             <br>
             <p>{{ post.content }}</p>
+            <br>
+            <br>
             <div class="services-small"></div>
-            <hr class="hr">
             <div class="services-small"></div>
         </div>
     </div>
